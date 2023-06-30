@@ -9,5 +9,228 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    
+}
+
+nav, h1{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    
+    
+}
+
+.container-navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0;
+    
+}
+
+.nav-links ul{
+    list-style-type: none;
+    
+}
+
+.nav-links li{
+    display: inline-block;
+    margin-left: 4rem;
+    
+}
+
+.nav-links li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 10px;
+    font-family: Segoe UI;
+    color: #000000;
+}
+
+.logo{
+    align-items: center;
+}
+
+.cara-cara{
+    display: inline-block;
+}
+
+h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#magnifying-glass{
+    height: 10px;
+    width: 10px;
+}
+
+.search{
+    align-items: center;
+    
+}
+
+.order{
+    align-self: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+#orange-pot{
+    height: 20px;
+    width: 30px;
+    margin-top: 2rem;
+}
+
+main{
+    clear: both;
+    width: 100%;
+    margin: 5rem;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 18px;
+    right: 24px;
+}
+
+#clay-pot{
+    height: 500px;
+    width: 100%;
+    clear: both;
+}
+
+#vase{
+    height: 45%;
+    width: 85%;
+}
+
+.cylinder img{
+    height: 80%;
+    width: 75%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.white-vase{
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.first-paragraph{
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.second-paragraph{
+    justify-content: flex-start;
+    align-self: center;
+    margin-right: 40rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.grid-item{
+    padding: 20px;
+    text-align: center;
+}
+
+.title{
+    text-align:start;
+    padding-left: 16rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.price{
+    text-align: end;
+    padding-right: 17rem;
+    
+}
+
+.description{
+    text-align: center;
+    justify-content: flex-end;
+    padding-left: 15rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 65%;
+}
+
+.grid-item  a{
+    color: #BF7631;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+.grid-item img{
+    height: 60%;
+    width: 45%;
+    border: 1px solid black;
+}
+
+.grid-item button{
+    background-color: #BF7631;
+    color: #FFFFFF;
+    border: hidden;
+    padding: 7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    clear: both;
+    background-color: #BF7631;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.container-footer{
+    display: flex;
+    align-self: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.container-footer-2{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-evenly;
+}
+
+.footer-image{
+    height: 20px;
+    width: 25px;
 }
 
